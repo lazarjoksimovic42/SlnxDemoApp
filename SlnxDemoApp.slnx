@@ -1,14 +1,3 @@
-format: slnx:1
-projects:
-  - path: SlnxDemoApp/SlnxDemoApp.csproj
-    id: BDCCF946-7DB9-4441-97A2-555569E57344
-    type: C#
-    configurations:
-      Debug|Any CPU:
-        build: true
-      Release|Any CPU:
-        build: true
-
-configurations:
-  - name: Debug|Any CPU
-  - name: Release|Any CPU
+﻿<Solution>
+  <Project Path="SlnxDemoApp\SlnxDemoApp.csproj" Type="Classic C#" />
+</Solution>
